@@ -1,0 +1,29 @@
+# Sensitive files
+.credentials.json
+*.key
+*.pem
+.env
+.env.local
+*.secret
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.pyc
+venv/
